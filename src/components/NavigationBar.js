@@ -9,11 +9,12 @@ const Styles = styled.div`
 
     .navbar-light .navbar-toggler {
         color: #bbb;
-        border-color: #eee;
+        background-color: #efefef;
+        
     }
 
-    .collapsed {
-        background-color: #eee !important;
+    .navbar-collapse {
+        color: #eee;
     }
 
     .navbar-brand, .navbar-nav .nav-link{
