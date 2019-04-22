@@ -5,11 +5,12 @@ import styled from 'styled-components';
 const Styles = styled.div`
     .navbar {
         background-color: #111;
+        padding: .5rem 0.7rem;
     }
 
     .navbar-light .navbar-toggler {
-        color: #bbb;
-        background-color: #efefef;
+        color: rgb(197, 197, 197);
+        background-color: #606060;
         
     }
 
@@ -18,7 +19,7 @@ const Styles = styled.div`
     }
 
     .navbar-brand, .navbar-nav .nav-link{
-        color: #bbb;
+        color: rgb(197, 197, 197);
 
         &:hover {
             color: white;
@@ -28,9 +29,9 @@ const Styles = styled.div`
 
 export const NavigationBar = () => (
     <Styles>
-        <Navbar expand="lg">
-            <Navbar.Brand href="/">LINDEN CREATIVE</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar expand="md">
+            <Navbar.Brand className="logo-div-style" href="/"><h6 className="logo navbar-logo">LINDEN CREATIVE</h6></Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className="hamburger-custom"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
