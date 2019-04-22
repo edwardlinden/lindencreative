@@ -14,6 +14,9 @@ export const FooterPage = () => {
               <p>
                 Follow us and our journey, that we create togheter - with you - on our media channels.
               </p>
+              <p>
+                edward@lindencreative.se 
+              </p>
             </MDBCol>
             <MDBCol md="6">
               <h6 className="title">Media</h6>
