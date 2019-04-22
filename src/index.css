@@ -21,7 +21,7 @@ code {
 }
 
 .about-picture {
-  max-height: 240px;
+  max-height: 220px;
   max-width: 100%;
   object-fit: cover;
 }
