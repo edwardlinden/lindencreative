@@ -27,7 +27,7 @@ export const FooterPage = () => {
             <MDBCol md="6 centerit">
             <h5 className="title logo navbar-logo footer-logo">LINDEN CREATIVE</h5>
               {/* <h6 className="title">Media</h6> */}
-              <SocialIcon className="margin-social" url="https://www.linkedin.com/" />
+              <a href="https://www.linkedin.com/"target="_blank"><SocialIcon target="_blank" className="margin-social" url="https://www.linkedin.com/" /></a>
               {/* <SocialIcon className="margin-social" url="https://www.youtube.com/" />
                   <SocialIcon className="margin-social" url="https://www.facebook.com/" />
                   <SocialIcon className="margin-social" url="https://www.instagram.com/" /> */}

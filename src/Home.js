@@ -2,7 +2,13 @@ import React from 'react';
 
 export const Home = () => (
     <div>
+        <p></p>
+        <br></br>
         <h1 className="logo logo-home">LINDEN CREATIVE</h1>
+        <p></p>
+        <p></p>
+        <br></br>
+        <br></br>
         <h5>A Stockholm based digital agency - focused on engangement.</h5>
         <h6>We inspire and empower the next generation customer through branch leading design</h6>
         <p></p>
