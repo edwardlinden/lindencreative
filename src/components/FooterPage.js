@@ -7,26 +7,35 @@ export const FooterPage = () => {
   return (
     <div className="sticky-footer">
       <MDBFooter color="black" className="font-small pt-4 mt-4">
+     
+     
+        
         <MDBContainer fluid className="text-center text-md-left">
           <MDBRow>
-            <MDBCol md="6">
-              <h5 className="title logo navbar-logo">LINDEN CREATIVE</h5>
+         
+            <MDBCol md="6 centerit">
+
               <p>
-                Follow us and our journey, that we create togheter - with you - on our media channels.
+                <a href="tel:+46732414868" class="footer-link coolcolor">+46 73 241 48 68</a>
               </p>
-              <p>
-                edward@lindencreative.se 
+              <p className="citation">
+                <a href="mailto:b2b@lindencreative.se" class="footer-link coolcolor">b2b@lindencreative.se</a>
+
               </p>
+
             </MDBCol>
-            <MDBCol md="6">
-              <h6 className="title">Media</h6>
-                  <SocialIcon className="margin-social" url="https://www.youtube.com/" />
-                  <SocialIcon className="margin-social" url="https://www.linkedin.com/" />
+            <MDBCol md="6 centerit">
+            <h5 className="title logo navbar-logo footer-logo">LINDEN CREATIVE</h5>
+              {/* <h6 className="title">Media</h6> */}
+              <SocialIcon className="margin-social" url="https://www.linkedin.com/" />
+              {/* <SocialIcon className="margin-social" url="https://www.youtube.com/" />
                   <SocialIcon className="margin-social" url="https://www.facebook.com/" />
-                  <SocialIcon className="margin-social" url="https://www.instagram.com/" />
+                  <SocialIcon className="margin-social" url="https://www.instagram.com/" /> */}
             </MDBCol>
           </MDBRow>
         </MDBContainer>
+        
+
         <div className="footer-copyright text-center py-3 small-text">
           <MDBContainer fluid>
             &copy; {new Date().getFullYear()} Copyright: Linden Creative AB

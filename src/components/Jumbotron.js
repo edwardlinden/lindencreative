@@ -1,11 +1,11 @@
 import React from 'react';
 import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
-import tape_final from '../assets/tape_final.jpg';
+import header_img from '../assets/tape_final.jpg';
 
 const Styles = styled.div `
     .jumbo {
-        background: url(${tape_final}) no-repeat;
+        background: url(${header_img}) no-repeat;
         background-size: cover;
         color: #efefef;
         height: 20%;
@@ -15,7 +15,7 @@ const Styles = styled.div `
 
     .overlay {
         background-color: #000;
-        opacity:0.6;
+        opacity:0.5;
         position: absolute;
         top: 0;
         left: 0;
@@ -25,13 +25,15 @@ const Styles = styled.div `
     }
 `;
 
+
+
 export const Jumbotron = () => (
     <Styles>
         <Jumbo fluid className="jumbo">
             <div className="overlay"></div>
             <Container>
-                <h2>Hi there, looking for creative competence?</h2>
-                <p>Get your stuff together and get blessed by a high-end agency.</p>
+                <h2>Hi there, looking for digital consultancy?</h2>
+                <h5>Challenge us today!</h5>
             </Container>
         </Jumbo>
     </Styles>
